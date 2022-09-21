@@ -1,0 +1,32 @@
+int main(void)
+{
+	int a1;
+	int a2;
+  
+	printf("請輸入第一個數\n");
+	scanf_s("%d", &a1);
+
+	printf("請輸入第二個數\n");
+		scanf_s("%d", &a2);
+
+	int sum;
+	sum = a1 + a2;
+
+	int D;
+	D = a1 - a2;
+
+	int P;
+	P = a1 * a2;
+
+	int Q;
+	int R;
+	Q = a1 / a2;
+	R = a1 % a2;
+
+
+	printf_s("和 %d\n", sum);
+	printf_s("差 %d\n",D);
+	printf_s("積 %d\n", P);
+	printf_s("商 %d\n", Q);
+	printf_s("餘數 %d\n", R);
+}
